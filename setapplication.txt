@@ -1,0 +1,10 @@
+list=[]
+word1=set(input("Please enter a first word: "))
+word2=set(input("Please enter a second word: "))
+intersection= word1&word2
+list.append(intersection)
+firstDiffernce=word1.difference(word2)
+list.append(firstDiffernce)
+secondDifference=word2.difference(word1)
+list.append(secondDifference)
+print(list)
